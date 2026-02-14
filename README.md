@@ -3,6 +3,7 @@
 ## Overview
 
 This project was developed as part of the VectorShift technical assessment.
+Live : https://vector-shift-silk.vercel.app/
 
 The application provides a pipeline parsing API that evaluates a graph structure composed of nodes and edges.  
 Given a pipeline definition, the backend analyzes the graph and returns key structural information.
