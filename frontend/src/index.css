@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+html,
+body,
+#root {
+  height: 100%;
+  background: #f8fafc; 
+  font-family: Inter, system-ui, sans-serif;
+}
+
+
+.react-flow__background {
+  background-color: #f8fafc;
+}
