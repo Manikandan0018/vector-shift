@@ -2,11 +2,14 @@ import React from "react";
 import axios from "axios";
 import { useStore } from "../store";
 
+
+const VITE_BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+
 export const SubmitButton = () => {
   const { nodes, edges } = useStore();
 
   const submit = async () => {
-    const res = await axios.post("http://127.0.0.1:8000/pipelines/parse", {
+    const res = await axios.post(`${VITE_BACKEND_URL}/pipelines/parse`, {
       nodes,
       edges,
     });

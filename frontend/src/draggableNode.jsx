@@ -5,7 +5,7 @@ export const DraggableNode = ({ type, label }) => {
       event.dataTransfer.setData('application/reactflow', JSON.stringify(appData));
       event.dataTransfer.effectAllowed = 'move';
     };
-  
+
     return (
       <div
         className={type}
